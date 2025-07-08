@@ -10,7 +10,7 @@ body {
 }
 
 .keys {
-  margin: 0 100px;
+  margin: 0 10px;
   gap: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +20,7 @@ body {
   color: #f73d3e;
 }
 .key {
-  width: 8rem;
+  width: 7rem;
   margin: 0.5rem;
   padding: 1rem 0.5rem;
   box-sizing: border-box;
