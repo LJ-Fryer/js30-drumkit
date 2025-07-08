@@ -11,21 +11,23 @@ body {
 
 .keys {
   margin: 0 100px;
+  gap: 10px;
   display: flex;
-  flex: 1;
+  flex-wrap: wrap;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   color: #f73d3e;
-  text-align: center;
 }
 .key {
-  width: 10rem;
+  width: 8rem;
   margin: 0.5rem;
   padding: 1rem 0.5rem;
+  box-sizing: border-box;
   border: 0.4rem solid #303030;
   border-radius: 8px;
   transition: all 0.07s ease;
+  text-align: center;
 }
 kbd {
   display: block;
